@@ -35,3 +35,4 @@ optional arguments:
 
 ### Solution
 
+The simpliest implementation is to ignore shapss and to compare only the color gamuts. So I find the mean value of RBG variety and use euclidean distance to pair images. Empirically I choose 10 as a level of reliability.
